@@ -1,4 +1,4 @@
-import mainImage from '../assets/mainimage.jpeg'; 
+import mainImage from '../assets/mainimage.jpg'; 
 import {Button, Card, CardHeader, CardBody, Image, User} from "@nextui-org/react";
 import { useQuery } from '@tanstack/react-query';
 
