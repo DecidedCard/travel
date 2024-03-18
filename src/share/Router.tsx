@@ -18,7 +18,6 @@ const Router = () => {
         <Route path="/community" element={<Community />} />
         <Route path="/userProfile" element={<UserProfile />} />
         <Route path="/write" element={<Write />} />
-        <Route path="/write/:id" element={<Write />} />
       </Routes>
     </BrowserRouter>
   );
