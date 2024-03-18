@@ -1,7 +1,6 @@
 import useWriteInputForm from "../../hook/useWriteInputForm";
-import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css";
 import { Input, Textarea } from "@nextui-org/react";
+import QuillEditor from "./QuillEditor";
 
 const InputForm = () => {
   const { inputValue, inputOnChange } = useWriteInputForm();
@@ -46,7 +45,7 @@ const InputForm = () => {
           onChange={inputOnChange.onChangeContent}
         />
       </div>
-      <ReactQuill className="h-96" />
+      <QuillEditor />
     </form>
   );
 };
