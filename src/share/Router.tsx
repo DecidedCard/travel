@@ -5,6 +5,7 @@ import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
 import Community from "../pages/Community";
 import UserProfile from "../pages/UserProfile";
+import Write from "../pages/Write";
 
 const Router = () => {
   return (
@@ -16,6 +17,8 @@ const Router = () => {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/community" element={<Community />} />
         <Route path="/userProfile" element={<UserProfile />} />
+        <Route path="/write" element={<Write />} />
+        <Route path="/write/:id" element={<Write />} />
       </Routes>
     </BrowserRouter>
   );
