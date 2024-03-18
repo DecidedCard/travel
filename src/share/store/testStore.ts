@@ -1,9 +1,6 @@
 import { create } from "zustand";
 
-type Store = {
-  count: number;
-  inc: () => void;
-};
+import type { Store } from "../../types";
 
 const useStore = create<Store>()((set) => ({
   count: 1,
