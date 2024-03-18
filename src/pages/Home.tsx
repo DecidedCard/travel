@@ -32,8 +32,8 @@ const Home: React.FC = () => {
         src: "https://i.pravatar.cc/150?u=a04258114e29026702d"
       }}
         />
-        <h1 className="uppercase font-bold">Daily Mix</h1>
-        <p className="text-default-500">12 Tracks</p>
+        <h1 className="uppercase font-bold mt-3">아마도 여행 날짜</h1>
+        <p className="text-default-500 mt-3">아마도 게시글 내용</p>
     </CardHeader>
     </Card>
     </div>
