@@ -8,16 +8,17 @@ const Home: React.FC = () => {
       <img src={mainImage} alt="Main" className="w-full h-[396px] block" />
       <div className="mt-10 flex">
         <Button color="primary" className='ml-5 mr-5'>
-          최신순
+          최신 순
         </Button>
         <Button color="default"> 
-          댓글순
+          댓글 순
         </Button>
       </div>
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 p-5">
       <Card className="py-4">
       <CardBody className="overflow-visible py-2">
         <Image
+          isZoomed
           alt="Card background"
           className="object-cover rounded-xl"
           src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
