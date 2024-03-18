@@ -4,17 +4,18 @@ import { nextui } from "@nextui-org/react";
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{ts,tsx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      mainColor: "#DFF5FF",
-      subColor1: "#5356FF",
-      subColor2: "#378CE7",
-      subColor3: "#67C6E3",
+    extend: {
+      colors: {
+        mainColor: "#DFF5FF",
+        subColor1: "#5356FF",
+        subColor2: "#378CE7",
+        subColor3: "#67C6E3",
+      },
     },
-    extend: {},
   },
   darkMode: "class",
   plugins: [nextui()],
